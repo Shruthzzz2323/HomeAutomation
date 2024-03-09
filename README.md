@@ -1,16 +1,19 @@
 # automation_home
 
-A new Flutter project.
+# Home Automation Flutter App
+
+Welcome to our Home Automation Flutter App! This app allows you to control and monitor various aspects of your home, including the living room, bedroom, kitchen, and schedules. It provides a user-friendly interface for seamless home automation.
+
+## Features
+
+- **Living Room:** Control and customize devices and settings in your living room, such as lights, fan, and sockets.
+
+- **Bedroom:** Manage bedroom devices and preferences, including lighting, fan, and other personalized settings.
+
+- **Kitchen:** Control kitchen appliances and settings, making it easy to manage your kitchen environment efficiently.
+
+- **Schedules:** Set up and customize automation schedules for different rooms, ensuring your home operates according to your preferences at specific times.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the Repository:**
