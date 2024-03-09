@@ -17,3 +17,17 @@ Welcome to our Home Automation Flutter App! This app allows you to control and m
 ## Getting Started
 
 1. **Clone the Repository:**
+https://github.com/Shruthzzz2323/HomeAutomation.git
+
+
+2. **Navigate to the Project Directory:**
+cd automation_home app
+
+
+3. **Install Dependencies:**
+flutter pub get
+
+
+4. **Run the App:**
+flutter run
+
