@@ -1,0 +1,36 @@
+{
+  "quick_actions": [
+    {
+      "name": "ab1-lights",
+      "icon": "src/images/light",
+      "id": "abl1-sxe"
+    },
+    {
+      "name": "lr1-lights-fans",
+      "icon": "src/images/light-fan",
+      "id": "lr1-lfall"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "living room",
+      "id": "lr1"
+    },
+    {
+      "name": "kitchen",
+      "id": "kt1"
+    }
+  ],
+  "devices": [
+    {
+      "name": "lamp1",
+      "id": "lamp1",
+      "belongs_to": "lr1"
+    },
+    {
+      "name": "abb_fan1",
+      "id": "abb_fan1",
+      "belongs_to": "kt1"
+    }
+  ]
+}

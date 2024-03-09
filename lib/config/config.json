@@ -1,0 +1,75 @@
+{
+  "quick_actions": [
+    {
+      "name": "ab1-lights",
+      "icon": "src/images/light",
+      "id": "abl1-sxe"
+    },
+    {
+      "name": "lr1-lights-fans",
+      "icon": "src/images/light-fan",
+      "id": "lr1-lfall"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "living room",
+      "id": "lr1"
+    },
+    {
+      "name": "bedroom",
+      "id": "bd1"
+    }
+  ],
+  "devices": [
+    {
+      "name": "lamp1",
+      "id": "lamp1",
+      "belongs_to": "lr1"
+    },
+    {
+      "name": "abb_fan1",
+      "id": "abb_fan1",
+      "belongs_to": "bd1"
+    }
+
+  ],
+  "schedules": [
+    {
+      "name": "Morning Routine",
+      "id": "morningRoutine",
+      "time": "08:00 AM",
+      "repeat": ["Monday", "Wednesday", "Friday"],
+      "actions": [
+        {
+          "device": "lamp1",
+          "action": "Turn On"
+        },
+        {
+          "device": "abb_fan1",
+          "action": "Set Speed",
+          "value": 50
+        }
+
+      ]
+    },
+    {
+      "name": "Evening Relaxation",
+      "id": "eveningRelaxation",
+      "time": "07:00 PM",
+      "repeat": ["Tuesday", "Thursday", "Saturday"],
+      "actions": [
+        {
+          "device": "lamp1",
+          "action": "Toggle"
+        },
+        {
+          "device": "socket1",
+          "action": "Turn Off"
+        }
+
+      ]
+    }
+
+  ]
+}
